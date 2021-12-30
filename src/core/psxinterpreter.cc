@@ -787,7 +787,7 @@ void InterpretedCPU::psxRFE(uint32_t code) {
  * Format:  OP rs, rt, offset                             *
  *********************************************************/
 #define RepBranchi32(op) \
-    if ((int32_t)_rRs_ op (int32_t)_rRt_) doBranch(_BranchTarget_, false);
+    if ((int32_t)_rRs_ op(int32_t) _rRt_) doBranch(_BranchTarget_, false);
 
 void InterpretedCPU::psxBEQ(uint32_t code) { RepBranchi32(==) }  // Branch if Rs == Rt
 void InterpretedCPU::psxBNE(uint32_t code) { RepBranchi32(!=) }  // Branch if Rs != Rt
