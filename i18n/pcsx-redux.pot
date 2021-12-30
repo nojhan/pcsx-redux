@@ -115,24 +115,24 @@ msgstr ""
 msgid "Assembly"
 msgstr ""
 
-#: src/core/psxinterpreter.cc:1180
+#: src/core/psxinterpreter.cc:1148
 #, c-format
 msgid "Attempted to access COP3 from 0x%08x. Ignored\n"
 msgstr ""
 
-#: src/core/psxinterpreter.cc:1169
+#: src/core/psxinterpreter.cc:1137
 #, c-format
 msgid ""
 "Attempted to use an invalid floating point instruction from 0x%08x. "
 "Ignored.\n"
 msgstr ""
 
-#: src/core/psxinterpreter.cc:880
+#: src/core/psxinterpreter.cc:848
 #, c-format
 msgid "Attempted unaligned JALR to 0x%08x from 0x%08x, firing exception!\n"
 msgstr ""
 
-#: src/core/psxinterpreter.cc:851
+#: src/core/psxinterpreter.cc:819
 #, c-format
 msgid "Attempted unaligned JR to 0x%08x from 0x%08x, firing exception!\n"
 msgstr ""
@@ -636,7 +636,7 @@ msgid ""
 "has a bug in its manifest parser."
 msgstr ""
 
-#: src/core/psxinterpreter.cc:1154
+#: src/core/psxinterpreter.cc:1122
 #, c-format
 msgid "Encountered reserved opcode from 0x%08x, firing an exception\n"
 msgstr ""
@@ -1493,17 +1493,17 @@ msgstr ""
 msgid "Show types"
 msgstr ""
 
-#: src/core/psxinterpreter.cc:488
+#: src/core/psxinterpreter.cc:456
 #, c-format
 msgid "Signed overflow in ADD instruction from 0x%08x!\n"
 msgstr ""
 
-#: src/core/psxinterpreter.cc:395
+#: src/core/psxinterpreter.cc:363
 #, c-format
 msgid "Signed overflow in ADDI instruction from 0x%08x!\n"
 msgstr ""
 
-#: src/core/psxinterpreter.cc:530
+#: src/core/psxinterpreter.cc:498
 #, c-format
 msgid "Signed overflow in SUB instruction from 0x%08x!\n"
 msgstr ""
@@ -1675,27 +1675,27 @@ msgstr ""
 msgid "UI Configuration"
 msgstr ""
 
-#: src/core/psxinterpreter.cc:922
+#: src/core/psxinterpreter.cc:890
 #, c-format
 msgid "Unaligned address 0x%08x in LH from 0x%08x\n"
 msgstr ""
 
-#: src/core/psxinterpreter.cc:943
+#: src/core/psxinterpreter.cc:911
 #, c-format
 msgid "Unaligned address 0x%08x in LHU from 0x%08x\n"
 msgstr ""
 
-#: src/core/psxinterpreter.cc:964
+#: src/core/psxinterpreter.cc:932
 #, c-format
 msgid "Unaligned address 0x%08x in LW from 0x%08x\n"
 msgstr ""
 
-#: src/core/psxinterpreter.cc:1030
+#: src/core/psxinterpreter.cc:998
 #, c-format
 msgid "Unaligned address 0x%08x in SH from 0x%08x\n"
 msgstr ""
 
-#: src/core/psxinterpreter.cc:1045
+#: src/core/psxinterpreter.cc:1013
 #, c-format
 msgid "Unaligned address 0x%08x in SW from 0x%08x\n"
 msgstr ""
